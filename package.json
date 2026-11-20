@@ -1,0 +1,13 @@
+{
+  "name": "spotix-platform",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Spotix Sports Management Platform - Monorepo",
+  "scripts": {
+    "dev": "npm run dev:frontend",
+    "dev:frontend": "cd frontend && npm run dev",
+    "dev:backend": "powershell -ExecutionPolicy Bypass -File ./run-backend.ps1",
+    "build:frontend": "cd frontend && npm run build",
+    "build:backend": "cd backend && powershell -ExecutionPolicy Bypass -Command \"$env:JAVA_HOME = 'C:\\Program Files\\Android\\Android Studio\\jbr'; .\\mvnw.cmd package -DskipTests\""
+  }
+}

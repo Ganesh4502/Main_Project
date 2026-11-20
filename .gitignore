@@ -1,0 +1,24 @@
+# Dependencies
+node_modules/
+target/
+
+# Build artifacts
+dist/
+*.tsbuildinfo
+
+# Environment and secrets
+.env
+.env.local
+
+# IDEs
+.idea/
+.vscode/
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+*.sw?
+
+# OS files
+.DS_Store
+Thumbs.db
